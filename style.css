@@ -1,0 +1,1185 @@
+.home-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home-page .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 6604px;
+    position: relative;
+  }
+  
+  .home-page .overlap {
+    position: absolute;
+    width: 1460px;
+    height: 877px;
+    top: -10px;
+    left: -10px;
+  }
+  
+  .home-page .group {
+    position: absolute;
+    width: 1440px;
+    height: 760px;
+    top: 117px;
+    left: 10px;
+    object-fit: cover;
+  }
+  
+  .home-page .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .home-page .frame-2 {
+    display: flex;
+    width: 1400px;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 132px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #3fa94a33;
+    box-shadow: 0px 4px 32px #0000000a;
+  }
+  
+  .home-page .capture-removebg {
+    position: relative;
+    width: 80px;
+    height: 66px;
+    object-fit: cover;
+  }
+  
+  .home-page .frame-wrapper {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    /* position: relative; */
+  }
+  
+  .home-page .frame-3 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .div-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 4px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--h-06-font-family);
+    font-weight: var(--h-06-font-weight);
+    color: var(--ppp);
+    font-size: var(--h-06-font-size);
+    letter-spacing: var(--h-06-letter-spacing);
+    line-height: var(--h-06-line-height);
+    white-space: nowrap;
+    font-style: var(--h-06-font-style);
+  }
+  
+  .home-page .text-wrapper-2 {
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Manrope-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #2d3038;
+    font-size: 16px;
+    line-height: 22.4px;
+    white-space: nowrap;
+    position: relative;
+    letter-spacing: 0;
+  }
+  
+  .home-page .frame-4 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 8px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #1a5f21;
+    border-radius: 50px;
+  }
+  
+  .home-page .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--heading-heading-h-6-semibold-601-font-family);
+    font-weight: var(--heading-heading-h-6-semibold-601-font-weight);
+    color: #ffffff;
+    font-size: var(--heading-heading-h-6-semibold-601-font-size);
+    letter-spacing: var(--heading-heading-h-6-semibold-601-letter-spacing);
+    line-height: var(--heading-heading-h-6-semibold-601-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-heading-h-6-semibold-601-font-style);
+  }
+  
+  .home-page .frame-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 219px;
+    left: 132px;
+  }
+  
+  .home-page .frame-6 {
+    display: flex;
+    flex-direction: column;
+    width: 769px;
+    height: 434px;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+  }
+  
+  .home-page .frame-7 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 316px;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+  }
+  
+  .home-page .frame-8 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .financial-literacy {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Manrope-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: var(--body-text-color);
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 72px;
+  }
+  
+  .home-page .p {
+    position: relative;
+    width: 615px;
+    font-family: var(--h-3-font-family);
+    font-weight: var(--h-3-font-weight);
+    color: var(--body-text-color);
+    font-size: var(--h-3-font-size);
+    letter-spacing: var(--h-3-letter-spacing);
+    line-height: var(--h-3-line-height);
+    font-style: var(--h-3-font-style);
+  }
+  
+  .home-page .CONTACT-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    flex: 0 0 auto;
+    margin-bottom: -10px;
+    border-radius: 50px;
+    gap: 4px;
+    padding: 8px 24px;
+    position: relative;
+    background-color: #1a5f21;
+  }
+  
+  .home-page .CONTACT {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--button-font-family);
+    font-weight: var(--button-font-weight);
+    color: #ffffff;
+    font-size: var(--button-font-size);
+    letter-spacing: var(--button-letter-spacing);
+    line-height: var(--button-line-height);
+    white-space: nowrap;
+    font-style: var(--button-font-style);
+  }
+  
+  .home-page .img {
+    position: absolute;
+    width: 499px;
+    height: 448px;
+    top: 245px;
+    left: 823px;
+    object-fit: cover;
+  }
+  
+  .home-page .overlap-group-wrapper {
+    position: absolute;
+    width: 1725px;
+    height: 633px;
+    top: 987px;
+    left: -31px;
+  }
+  
+  .home-page .overlap-group {
+    position: relative;
+    height: 633px;
+  }
+  
+  .home-page .ellipse {
+    position: absolute;
+    width: 337px;
+    height: 331px;
+    top: 302px;
+    left: 0;
+    background-color: #fa7514;
+    border-radius: 168.5px/165.5px;
+    filter: blur(220px);
+    opacity: 0.13;
+  }
+  
+  .home-page .content {
+    display: inline-flex;
+    height: 541px;
+    align-items: flex-start;
+    gap: 32px;
+    position: absolute;
+    top: 0;
+    left: 151px;
+    overflow-x: scroll;
+  }
+  
+  .home-page .rectangle {
+    position: relative;
+    width: 502px;
+    height: 571px;
+    margin-bottom: -29.56px;
+    object-fit: cover;
+  }
+  
+  .home-page .frame-9 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: -29.56px;
+  }
+  
+  .home-page .rectangle-2 {
+    position: relative;
+    width: 502px;
+    height: 370px;
+    object-fit: cover;
+  }
+  
+  .home-page .frame-10 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-11 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .what-is-FLY {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .financial-literacy-2 {
+    position: relative;
+    width: 494px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--neutral-60);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .rectangle-3 {
+    position: relative;
+    width: 506px;
+    height: 460px;
+    object-fit: cover;
+  }
+  
+  .home-page .icon-wrapper {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 99px;
+    left: 464px;
+    background-color: var(--neutral-10);
+    border-radius: 50px;
+  }
+  
+  .home-page .icon {
+    position: absolute;
+    width: 40px;
+    height: 34px;
+    top: 33px;
+    left: 30px;
+  }
+  
+  .home-page .overlap-2 {
+    position: absolute;
+    width: 1460px;
+    height: 4936px;
+    top: 1668px;
+    left: -10px;
+  }
+  
+  .home-page .frame-12 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .home-page .frame-13 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 120px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-14 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-15 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-16 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #3fa94a33;
+  }
+  
+  .home-page .frame-17 {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .rectangle-4 {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 450px;
+    object-fit: cover;
+  }
+  
+  .home-page .frame-18 {
+    display: flex;
+    width: 634px;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+  }
+  
+  .home-page .frame-19 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .home-page .frame-20 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-21 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-22 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #50c6601a;
+    border-radius: 50px;
+  }
+  
+  .home-page .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--p-3);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home-page .about-FLY {
+    align-self: stretch;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 48px;
+    line-height: 60px;
+    position: relative;
+    letter-spacing: 0;
+  }
+  
+  .home-page .text-wrapper-5 {
+    position: relative;
+    align-self: stretch;
+    opacity: 0.8;
+    font-family: var(--parya-font-family);
+    font-weight: var(--parya-font-weight);
+    color: #000000;
+    font-size: var(--parya-font-size);
+    letter-spacing: var(--parya-letter-spacing);
+    line-height: var(--parya-line-height);
+    font-style: var(--parya-font-style);
+  }
+  
+  .home-page .frame-23 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-24 {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .home-page .text-wrapper-6 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--h-2-font-family);
+    font-weight: var(--h-2-font-weight);
+    color: #000000;
+    font-size: var(--h-2-font-size);
+    letter-spacing: var(--h-2-letter-spacing);
+    line-height: var(--h-2-line-height);
+    font-style: var(--h-2-font-style);
+  }
+  
+  .home-page .group-2 {
+    position: absolute;
+    width: 1433px;
+    height: 697px;
+    top: -188px;
+    left: -116px;
+  }
+  
+  .home-page .group-3 {
+    position: relative;
+    width: 1316px;
+    height: 637px;
+  }
+  
+  .home-page .overlap-group-2 {
+    position: relative;
+    height: 647px;
+  }
+  
+  .home-page .rectangle-5 {
+    position: absolute;
+    width: 1316px;
+    height: 527px;
+    top: 110px;
+    left: 0;
+  }
+  
+  .home-page .frame-25 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 214px;
+    left: 678px;
+  }
+  
+  .home-page .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--h-02-font-family);
+    font-weight: var(--h-02-font-weight);
+    color: var(--swatch-000000);
+    font-size: var(--h-02-font-size);
+    letter-spacing: var(--h-02-letter-spacing);
+    line-height: var(--h-02-line-height);
+    white-space: nowrap;
+    font-style: var(--h-02-font-style);
+  }
+  
+  .home-page .join-our-community {
+    position: relative;
+    align-self: stretch;
+    font-family: "Manrope-Medium", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 27.8px;
+  }
+  
+  .home-page .span {
+    font-weight: 500;
+    color: #2d3038;
+  }
+  
+  .home-page .text-wrapper-8 {
+    font-family: "Manrope-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    line-height: 34.8px;
+  }
+  
+  .home-page .unsplash {
+    position: absolute;
+    width: 565px;
+    height: 647px;
+    top: 0;
+    left: 73px;
+    object-fit: cover;
+  }
+  
+  .home-page .frame-26 {
+    display: flex;
+    flex-direction: column;
+    width: 1176px;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-27 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--h-2-font-family);
+    font-weight: var(--h-2-font-weight);
+    color: var(--swatch-000000);
+    font-size: var(--h-2-font-size);
+    letter-spacing: var(--h-2-letter-spacing);
+    line-height: var(--h-2-line-height);
+    white-space: nowrap;
+    font-style: var(--h-2-font-style);
+  }
+  
+  .home-page .we-cover-a-variety {
+    position: relative;
+    align-self: stretch;
+    height: 68px;
+    opacity: 0.7;
+    font-family: var(--parya-font-family);
+    font-weight: var(--parya-font-weight);
+    color: var(--body-text-color);
+    font-size: var(--parya-font-size);
+    text-align: center;
+    letter-spacing: var(--parya-letter-spacing);
+    line-height: var(--parya-line-height);
+    font-style: var(--parya-font-style);
+  }
+  
+  .home-page .frame-28 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-29 {
+    display: flex;
+    width: 1176px;
+    align-items: flex-start;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-30 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 40px 20px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 20px #0000001f;
+  }
+  
+  .home-page .frame-31 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .home-page .text-wrapper-10 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Manrope-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 31.2px;
+  }
+  
+  .home-page .text-wrapper-11 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--body-text-color);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .frame-32 {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .read-more {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--button-button-2-medium-500-font-family);
+    font-weight: var(--button-button-2-medium-500-font-weight);
+    color: #6c2089;
+    font-size: var(--button-button-2-medium-500-font-size);
+    letter-spacing: var(--button-button-2-medium-500-letter-spacing);
+    line-height: var(--button-button-2-medium-500-line-height);
+    white-space: nowrap;
+    font-style: var(--button-button-2-medium-500-font-style);
+  }
+  
+  .home-page .vector {
+    position: relative;
+    width: 25px;
+    height: 14.73px;
+    margin-right: -1px;
+  }
+  
+  .home-page .frame-33 {
+    position: relative;
+    width: 90px;
+    height: 100px;
+  }
+  
+  .home-page .frame-34 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 20px #0000001f;
+  }
+  
+  .home-page .frame-35 {
+    position: relative;
+    width: 90px;
+    height: 90px;
+  }
+  
+  .home-page .frame-36 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    padding: 40px 20px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 20px #0000001f;
+  }
+  
+  .home-page .frame-37 {
+    position: relative;
+    width: 110px;
+    height: 110px;
+  }
+  
+  .home-page .frame-38 {
+    display: flex;
+    flex-direction: column;
+    height: 339px;
+    align-items: center;
+    gap: 32px;
+    padding: 40px 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 20px #0000001f;
+  }
+  
+  .home-page .frame-39 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -4px;
+  }
+  
+  .home-page .frame-40 {
+    display: flex;
+    flex-direction: column;
+    height: 339px;
+    align-items: center;
+    gap: 52px;
+    padding: 40px 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 20px #0000001f;
+  }
+  
+  .home-page .frame-41 {
+    display: flex;
+    flex-direction: column;
+    height: 339px;
+    align-items: center;
+    gap: 39px;
+    padding: 40px 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 20px #0000001f;
+  }
+  
+  .home-page .frame-42 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -11px;
+  }
+  
+  .home-page .frame-43 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .rectangle-6 {
+    position: relative;
+    width: 1440px;
+    height: 1188px;
+  }
+  
+  .home-page .frame-44 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: absolute;
+    top: 107px;
+    left: 365px;
+  }
+  
+  .home-page .frame-45 {
+    display: flex;
+    flex-direction: column;
+    width: 709px;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .have-questions-about {
+    position: relative;
+    align-self: stretch;
+    opacity: 0.7;
+    font-family: var(--parya-font-family);
+    font-weight: var(--parya-font-weight);
+    color: var(--body-text-color);
+    font-size: var(--parya-font-size);
+    text-align: center;
+    letter-spacing: var(--parya-letter-spacing);
+    line-height: var(--parya-line-height);
+    font-style: var(--parya-font-style);
+  }
+  
+  .home-page .form {
+    position: relative;
+    width: 630.08px;
+    height: 776px;
+  }
+  
+  .home-page .frame-46 {
+    display: flex;
+    width: 630px;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 48px 72px;
+    position: relative;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: var(--shadow-l);
+  }
+  
+  .home-page .frame-47 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .home-page .title {
+    position: relative;
+    width: 487px;
+    margin-top: -1px;
+    margin-right: -0.92px;
+    font-family: var(--h-03-font-family);
+    font-weight: var(--h-03-font-weight);
+    color: var(--gray-900);
+    font-size: var(--h-03-font-size);
+    text-align: center;
+    letter-spacing: var(--h-03-letter-spacing);
+    line-height: var(--h-03-line-height);
+    font-style: var(--h-03-font-style);
+  }
+  
+  .home-page .frame-48 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-49 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .frame-50 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .label {
+    position: relative;
+    width: 491px;
+    margin-top: -1px;
+    margin-right: -4.92px;
+    font-family: var(--h-06-font-family);
+    font-weight: var(--h-06-font-weight);
+    color: var(--heading-text-color);
+    font-size: var(--h-06-font-size);
+    letter-spacing: var(--h-06-letter-spacing);
+    line-height: var(--h-06-line-height);
+    font-style: var(--h-06-font-style);
+  }
+  
+  .home-page .input-standard {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 52px;
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: var(--gray-400);
+  }
+  
+  .home-page .frame-51 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .label-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--h-06-font-family);
+    font-weight: var(--h-06-font-weight);
+    color: var(--heading-text-color);
+    font-size: var(--h-06-font-size);
+    letter-spacing: var(--h-06-letter-spacing);
+    line-height: var(--h-06-line-height);
+    font-style: var(--h-06-font-style);
+  }
+  
+  .home-page .input-standard-2 {
+    height: 52px;
+    overflow: hidden;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: var(--gray-400);
+  }
+  
+  .home-page .icon-2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    left: 446px;
+  }
+  
+  .home-page .input-standard-3 {
+    height: 124px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: var(--gray-400);
+  }
+  
+  .home-page .CONTACT-2 {
+    font-family: var(--button-button-2-medium-500-font-family);
+    font-weight: var(--button-button-2-medium-500-font-weight);
+    color: var(--white);
+    font-size: var(--button-button-2-medium-500-font-size);
+    line-height: var(--button-button-2-medium-500-line-height);
+    position: relative;
+    width: fit-content;
+    letter-spacing: var(--button-button-2-medium-500-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--button-button-2-medium-500-font-style);
+  }
+  
+  .home-page .social-links-only {
+    display: flex;
+    width: 1440px;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    top: 4816px;
+    left: 10px;
+    background-color: #000000;
+  }
+  
+  .home-page .container {
+    display: flex;
+    width: 1280px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 48px 32px;
+    position: relative;
+  }
+  
+  .home-page .copyright {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--text-base-leading-6-font-normal-font-family);
+    font-weight: var(--text-base-leading-6-font-normal-font-weight);
+    color: #ffffff;
+    font-size: var(--text-base-leading-6-font-normal-font-size);
+    letter-spacing: var(--text-base-leading-6-font-normal-letter-spacing);
+    line-height: var(--text-base-leading-6-font-normal-line-height);
+    white-space: nowrap;
+    font-style: var(--text-base-leading-6-font-normal-font-style);
+  }
+  
+  .home-page .footer-social-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .footers-social-link {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .img-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  
