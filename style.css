@@ -1,4 +1,53 @@
-.home-page {
+/* Style the container */
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #3fa94a33;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style form elements */
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Manrope-SemiBold", Helvetica;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "Manrope-SemiBold", Helvetica;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #1a5f21;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button.submit-button:hover {
+  background-color: #147d2d;
+}.home-page {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -70,12 +119,27 @@
     /* position: relative; */
   }
   
+  /* Modify this as navbar so that it remains at top of page */
   .home-page .frame-3 {
     display: inline-flex;
-    align-items: flex-start;
+    align-items: center; /* Vertically center the items */
     gap: 32px;
-    position: relative;
+    position: fixed; /* Change from 'relative' to 'fixed' */
+    top: 0; /* Fix it to the top of the viewport */
+    background-color: #1a5f21; /* Set your desired background color */
+    z-index: 1000; /* Ensure it's above other content */
     flex: 0 0 auto;
+  }
+
+  /* Dropdown option for menu */
+  .home-page .dropdown-trigger {
+    display: block;
+    position: relative;
+    padding: 0 36px 0 20px;
+    line-height: 40px;
+    background-color: #111433;
+    color: #fff;
+    border-radius: 3px;
   }
   
   .home-page .div-wrapper {
@@ -101,23 +165,24 @@
     font-style: var(--h-06-font-style);
   }
   
+  /* Modify text in nav bar (JSG) */
   .home-page .text-wrapper-2 {
     width: fit-content;
     margin-top: -1px;
     font-family: "Manrope-SemiBold", Helvetica;
     font-weight: 600;
-    color: #2d3038;
-    font-size: 16px;
-    line-height: 22.4px;
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
     white-space: nowrap;
     position: relative;
-    letter-spacing: 0;
+    letter-spacing: 1px;
   }
   
   .home-page .frame-4 {
     display: inline-flex;
     align-items: flex-start;
-    gap: 4px;
+    gap: 26px;
     padding: 8px 24px;
     position: relative;
     flex: 0 0 auto;

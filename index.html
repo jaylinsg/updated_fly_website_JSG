@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="home-page">
+    <div class="home-page" id="home">
       <div class="div">
         <div class="overlap">
           <img class="group" src="img/group-1-1.png" />
@@ -14,13 +14,14 @@
             <div class="frame-2">
               <!-- <img class="capture-removebg" src="img/capture-removebg-preview-7-1.png" /> -->
               <div class="frame-wrapper">
-                <div class="frame-3">
-                  <div class="div-wrapper"><div class="text-wrapper">HOME</div></div>
-                  <div class="div-wrapper"><div class="text-wrapper-2">ABOUT US</div></div>
-                  <div class="div-wrapper"><div class="text-wrapper-2">BENEFITS</div></div>
-                  <div class="div-wrapper"><div class="text-wrapper-2">DONATE</div></div>
-                  <div class="div-wrapper"><div class="text-wrapper-2">CONTACT US</div></div>
-                </div>
+                <div class="frame-4">
+                  <!--made text elements into clickable buttons (JSG)-->
+                  <div class="div-wrapper"><a href="#home"><div class="text-wrapper-2">HOME</div></a></div>
+                  <div class="div-wrapper"><a href="#about"><div class="text-wrapper-2">ABOUT US</div></a></div>
+                  <div class="div-wrapper"><a href="#benefits"><div class="text-wrapper-2">BENEFITS</div></a></div>
+                  <div class="div-wrapper"><a href="#donate"><div class="text-wrapper-2">DONATE</div></a></div>
+                  <div class="div-wrapper"><a href="#contact"><div class="text-wrapper-2">CONTACT US</div></a></div>
+                </div>                
               </div>
             </div>
           </div>
@@ -72,7 +73,8 @@
                         <div class="frame-19">
                           <div class="frame-20">
                             <div class="frame-21">
-                              <div class="frame-22"><div class="text-wrapper-4">About Us</div></div>
+                              <!--Add ID to match button link-->
+                              <div class="frame-22" id="about"><div class="text-wrapper-4">About Us</div></div>
                               <div class="about-FLY">About Fly</div>
                               <p class="text-wrapper-5">
                                 Our Mission Is To Increase Financial Literacy And Fiscal Wellness By Empowering Young
@@ -97,7 +99,7 @@
                         <div class="frame-19">
                           <div class="frame-20">
                             <div class="frame-21">
-                              <div class="frame-22"><div class="text-wrapper-4">Benefits</div></div>
+                              <div class="frame-22" id="benefits"><div class="text-wrapper-4">Benefits</div></div>
                               <div class="text-wrapper-6">Member Benefits</div>
                               <p class="text-wrapper-5">
                                 Becoming A Member Will Give You Access To The Financial Literacy Education That Many Of
@@ -289,7 +291,7 @@
                   </div>
                 </div>
               </div>
-              <div class="frame-43">
+              <div class="frame-43" id="contact">
                 <img class="rectangle-6" src="img/rectangle-34624375.svg" />
                 <div class="frame-44">
                   <div class="frame-45">
@@ -298,10 +300,21 @@
                       Have Questions About Fly Or Want To Open A Charter? Contact Us Now More Information On Fly And How
                       To Begin!
                     </p>
-                  </div>
-                  
-                        <p class="title">Financial Literacy for the Youth Interest Form</p>
-            </div>
+                    <div>
+                      <p class="title">Financial Literacy for the Youth Interest Form</p>
+                      <form id="contact-form" class="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    
+                        <button type="submit" class="submit-button">Submit</button>
+                      </form>
+                    </div>                    
           </div>
           <div class="social-links-only">
             <div class="container">
